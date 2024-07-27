@@ -275,7 +275,7 @@ a {
     width: 470px;
     border-radius: 10px;
     background: #FFF;
-    transition: 0.25;
+    transition: 0.25s;
 }
 
 .service-item:hover {
@@ -295,7 +295,7 @@ a {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
     color: #10375C;
     flex-shrink: 0;
-    transition: .25;
+    transition: 0.25s;
 }
 
 .service-item:hover .service-item__icon {
@@ -321,3 +321,61 @@ a {
     margin-top: 55px;
 }
 
+/* ==================== Work =================== */
+.work {
+    padding: 100px 0;
+    background: #F6FBFF;
+}
+
+.work__desc {
+    width: 468px;
+}
+
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-top: 70px;
+}
+
+.work-item {
+    padding: 16px;
+    background: #2E80CE;
+    border-radius: 4px;
+}
+
+.work-item div {
+    padding: 43px;
+    border-radius: 4px;
+    background: #FFF;
+}
+
+.work-item:hover {
+    transform: translateY(-16px);
+    border-color: #2E80CE;
+}
+
+.work-item__heading {
+    margin-top: 18px;
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 138.462%;
+}
+
+.work-item__desc {
+    margin-top: 28px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%;
+}
+
+.work-item__more {
+    display: inline-block;
+    margin-top: 18px;
+    color: #2E80CE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+}
