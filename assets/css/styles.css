@@ -3,10 +3,11 @@
 }
 
 :root {
-    --header-bg:#10375C;
+    --header-bg: #10375c;
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -21,9 +22,9 @@ body {
 
 /* ================= Common ================== */
 .container {
-   width: 1170px;     
-   max-width: calc(100% - 48px); /* enhance when zoom in */
-   margin: 0 auto;
+    width: 1170px;
+    max-width: calc(100% - 48px); /* enhance when zoom in */
+    margin: 0 auto;
 }
 
 a {
@@ -36,9 +37,9 @@ a {
     height: 60px;
     line-height: 60px;
     border-radius: 999px;
-    background: #2E80CE;
+    background: #2e80ce;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     font-size: 1.8rem;
     font-weight: 400;
     border: 1px solid transparent;
@@ -50,8 +51,8 @@ a {
 }
 
 .section-heading {
-    color: #10375C;
-    font-size: 5.0rem;
+    color: #10375c;
+    font-size: 5rem;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: -0.1rem;
@@ -59,7 +60,7 @@ a {
 
 .section-desc {
     margin-top: 18px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 166.667%;
@@ -87,7 +88,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background: #2E80CE;
+    background: #2e80ce;
 }
 
 .logo__circle::after {
@@ -96,7 +97,7 @@ a {
     left: 1.1em;
     width: 1.6em;
     height: 1.6em;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .logo__text {
@@ -113,8 +114,8 @@ a {
 }
 
 .logo__brand--small {
-   font-size: 1.2em;
-   font-weight: 300; 
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 /* ================= Header top ==================== */
@@ -132,7 +133,7 @@ a {
 .header-action__btn,
 .navbar__link {
     padding: 4px 21px;
-    color: #C9D2DA;
+    color: #c9d2da;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 175%;
@@ -186,7 +187,7 @@ a {
 }
 
 .hero__heading {
-    color: #FFF;
+    color: #fff;
     font-size: 7rem;
     font-weight: 600;
     line-height: 114.286%;
@@ -195,7 +196,7 @@ a {
 
 .hero__desc {
     margin-top: 22px;
-    color: #C9D2DA;
+    color: #c9d2da;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 166.667%;
@@ -209,7 +210,7 @@ a {
 
 .hero__phone {
     margin-left: 38px;
-    color: #FFF;
+    color: #fff;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 166.667%;
@@ -243,7 +244,7 @@ a {
     padding: 170px 0;
 }
 
-.service__heading, 
+.service__heading,
 .service__desc {
     text-align: center;
 }
@@ -274,7 +275,7 @@ a {
     padding: 22px;
     width: 470px;
     border-radius: 10px;
-    background: #FFF;
+    background: #fff;
     transition: 0.25s;
 }
 
@@ -290,28 +291,28 @@ a {
     align-items: center;
     width: 60px;
     height: 60px;
-    background: #EFF6FD;
+    background: #eff6fd;
     border-radius: 50%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
-    color: #10375C;
+    color: #10375c;
     flex-shrink: 0;
     transition: 0.25s;
 }
 
 .service-item:hover .service-item__icon {
     color: #fff;
-    background: #2E80CE;
+    background: #2e80ce;
 }
 
 .service-item__heading {
-    color: #10375C;
+    color: #10375c;
     font-size: 1.8rem;
     font-weight: 600;
 }
 
 .service-item__desc {
     margin-top: 8px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 175%;
@@ -324,7 +325,7 @@ a {
 /* ==================== Work =================== */
 .work {
     padding: 100px 0;
-    background: #F6FBFF;
+    background: #f6fbff;
 }
 
 .work__desc {
@@ -340,7 +341,7 @@ a {
 
 .work-item {
     padding: 16px;
-    background: #2E80CE;
+    background: #2e80ce;
     border-radius: 4px;
     transition: 0.25s;
 }
@@ -348,17 +349,17 @@ a {
 .work-item div {
     padding: 43px;
     border-radius: 4px;
-    background: #FFF;
+    background: #fff;
 }
 
 .work-item:hover {
     transform: translateY(-16px);
-    border-color: #2E80CE;
+    border-color: #2e80ce;
 }
 
 .work-item__heading {
     margin-top: 18px;
-    color: #10375C;
+    color: #10375c;
     font-size: 2.6rem;
     font-weight: 600;
     line-height: 138.462%;
@@ -366,7 +367,7 @@ a {
 
 .work-item__desc {
     margin-top: 28px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 175%;
@@ -375,8 +376,49 @@ a {
 .work-item__more {
     display: inline-block;
     margin-top: 18px;
-    color: #2E80CE;
+    color: #2e80ce;
     font-size: 16px;
     font-weight: 400;
     line-height: 175%;
+}
+
+/* ====================== Feature ========================= */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.inner__feature {
+    display: flex;
+    column-gap: 130px;
+    align-items: center;
+}
+
+.feature__media {
+    width: 49%;
+}
+
+.feature__images {
+    position: relative;
+    padding-right: 58px; 
+    padding-bottom: 121px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__cta {
+    margin-top: 38px;
 }
