@@ -400,7 +400,7 @@ a {
 
 .feature__images {
     position: relative;
-    padding-right: 58px; 
+    padding-right: 58px;
     padding-bottom: 121px;
 }
 
@@ -421,4 +421,93 @@ a {
 
 .feature__cta {
     margin-top: 38px;
+}
+
+/* ======================== Member ======================== */
+.member {
+    padding: 85px 0;
+    text-align: center;
+}
+
+.member__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member__cta {
+    margin-top: 38px;
+}
+
+.member__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px;
+    column-gap: 30px;
+}
+
+.member-item__img-bg {
+    border-radius: 6px;
+    background: #eaf6ff;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.member-item__thumb {
+    display: block;
+    max-width: 100%; /* set max because of unexpected cutting images */
+    height: 290px;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1);
+}
+
+.member-item__name {
+    margin-top: 12px;
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.member-item__desc {
+    color: #575F66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 185.714%;
+}
+
+.member__control {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.member__control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575F66;
+    outline: none;
+    color: #575F66;
+    transition: 0.25s;
+}
+
+.member__control-btn:hover {
+    background: #2E80CE;
+    border-color: #2E80CE;
+    color: #fff;
+    cursor: pointer;
+}
+
+.member__control-rotate {
+    rotate: 180deg;
 }
