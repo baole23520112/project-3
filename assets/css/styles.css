@@ -602,7 +602,7 @@ a {
     flex: 1;
     border-radius: 12px;
     background: #fff;
-    box-shadow: 0 0 0 1px #E8EBEE;
+    box-shadow: 0 0 0 1px #e8ebee;
     overflow: hidden;
     transition: 0.25s;
 }
@@ -639,12 +639,47 @@ a {
 .news-item__more {
     display: inline-block;
     margin-top: 12px;
-    color: #10375C;
+    color: #10375c;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.8;
 }
 
 .news-item__more:hover {
-    color: #2E80CE;
+    color: #2e80ce;
+}
+
+/* ==================== Appointment =============== */
+.appointment {
+    margin: 85px 0 170px;
+    text-align: center;
+}
+
+.appointment__inner {
+    padding: 100px 0;
+    background: #f6fbff;
+    border-radius: 4px;
+}
+
+.appointment__heading {
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.appointment__heading::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.appointment__desc {
+    max-width: 617px;
+    margin: 18px auto 38px;
+    font-size: 1.6rem;
 }
