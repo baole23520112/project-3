@@ -20,6 +20,11 @@ body {
     font-family: "Sora", sans-serif;
 }
 
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 /* ================= Common ================== */
 .container {
     width: 1170px;
@@ -109,6 +114,7 @@ a {
 
 .logo__brand {
     display: block;
+    font-family: "Sora", sans-serif;
     font-size: 1.8em;
     font-weight: 400;
 }
@@ -672,7 +678,7 @@ a {
     display: block;
     width: 136px;
     height: 2px;
-    background: #2E80CE;
+    background: #2e80ce;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -682,4 +688,139 @@ a {
     max-width: 617px;
     margin: 18px auto 38px;
     font-size: 1.6rem;
+}
+
+/* =================== Footer ==================== */
+.footer {
+    padding: 100px 0 42px;;
+    background: #10375c;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 22px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.footer__heading {
+    margin: 28px 0 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.footer__heading:first-child {
+    margin-top: 0;
+}
+
+.footer__form {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer-form__input {
+    width: 212px;
+    height: 46px;
+}
+
+/* .footer__list {
+    margin-top: 20px;
+    margin-bottom: 28px; */
+/* } */
+
+.footer__link {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%;
+    white-space: nowrap;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__item ~ .footer__item {
+    margin-top: 10px;
+}
+
+.footer__social {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: #2e80ce;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.footer__social-btn:hover {
+    background: #2e80ce;
+    color: #fff;
+}
+
+.footer-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.footer-form__input {
+    padding: 0 10px;
+    background: transparent;
+    outline: none;
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #fff;
+}
+
+.footer-form__input::placeholder {
+    color: #9CA8B1;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+
+.footer-form__submit {
+    min-width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 185.714%;
+}
+
+.footer__copyright {
+    margin-top: 28px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    margin-top: 28px;
+    color: #AAB3BA;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%;
 }
